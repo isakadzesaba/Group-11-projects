@@ -1,31 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="to">To Do List</h1>
-    
-    <div class="section" style="grid-row: 2 / 3;">
-        <h2>Why Use a To Do List?</h2>
-        <p>A To Do List is an essential tool for managing tasks effectively. It helps you stay organized, prioritize your work, and track your progress. By breaking down your tasks into manageable items, you can ensure nothing is forgotten and reduce stress by visualizing your workload.</p>
-    </div>
+    <header>
+        <div class="container">
+            <h1 class="title">To Do List</h1>
+        </div>
+    </header>
 
-    <div class="section" style="grid-row: 3 / 4;">
-        <h2>Features of Our To Do List Application</h2>
-        <p>Our To Do List application offers a user-friendly interface with the following features:</p>
-        <ul>
-            <li>Simple and intuitive task management</li>
-            <li>Easy task addition and editing</li>
-            <li>Task prioritization and categorization</li>
-            <li>Progress tracking and reminders</li>
-        </ul>
-    </div>
+    <main>
+        <section class="hero">
+            <h2>Stay Organized, Stay Productive</h2>
+            <p>Our To Do List application helps you manage tasks efficiently. Keep track of your tasks, prioritize what’s important, and accomplish more every day.</p>
+            <a href="./Assets/To do list.exe" download class="cta-button">
+                <span style="font-size:medium;">Download Now</span>
+            </a>
+        </section>
 
-    <div class="section" style="grid-row: 4 / 5;">
-        <h2>Download the To Do List Application Now!</h2>
-        <p>Click the button below to download the To Do List application and start organizing your tasks more effectively!</p>
-        <a href="./Assets/To do list.exe" class="download-button" download>Download Now!</a>
-    </div>
-    <img src="./Assets/Picture.png" alt="To Do List Image">
+        <section class="features">
+            <div class="container">
+                <h2>Features</h2>
+                <div class="feature-grid">
+                    <div class="feature">
+                        <h3>Simple Task Management</h3>
+                        <p>Easily add, edit, and delete tasks with a user-friendly interface.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Prioritize Tasks</h3>
+                        <p>Organize tasks by priority and category to stay focused on what matters most.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Track Your Progress</h3>
+                        <p>Visualize your progress and set reminders to keep your productivity on track.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Sync Across Devices</h3>
+                        <p>Access your tasks from any device and keep everything in sync.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonial">
+            <div class="container">
+                <h2>What Our Users Say</h2>
+                <p>"This app transformed the way I manage my daily tasks. It's intuitive and incredibly effective!"</p>
+            </div>
+        </section>
+
+        <div class="Rate">
+            <p>Rate Us!</p>
+            <div class="rating">
+                <input value="5" name="rating" id="star5" type="radio">
+                <label for="star5"></label>
+                <input value="4" name="rating" id="star4" type="radio">
+                <label for="star4"></label>
+                <input value="3" name="rating" id="star3" type="radio">
+                <label for="star3"></label>
+                <input value="2" name="rating" id="star2" type="radio">
+                <label for="star2"></label>
+                <input value="1" name="rating" id="star1" type="radio">
+                <label for="star1"></label>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
